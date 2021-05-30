@@ -4,7 +4,7 @@
 			<div class="widget-content widget-content-area br-6">
 				<div class="mt-3">
 					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#form" aria-expanded="false" aria-controls="collapseForm">
-						Tambah
+						Tambah Data
 					</button>
 					<div class="collapse mt-3" id="form">
 						<div class="col-md-6">
