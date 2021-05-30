@@ -450,4 +450,14 @@ class Admin extends CI_Controller
 
 		$this->template->load('backend/template/master', 'backend/admin/list-karyawan', $data, false);
 	}
+
+	public function kasir()
+	{
+		$data = [
+			'title' => 'Admin / Kasir',
+			'breadcrumb' => 'Kasir',
+		];
+
+		$this->template->load('backend/template/master', 'backend/admin/kasir', $data, false);
+	}
 }
